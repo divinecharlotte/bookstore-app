@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&display=swap');
+
+:root {
+  --montseratt: system-ui, -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, oxygen, ubuntu, cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --roboto-slab: 'Roboto Slab', serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f6fa;
+  overflow-x: hidden;
+}
+
+.books-container {
+  width: 90%;
+  margin: auto;
+  height: 90vh;
+  background-color: white;
+  box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+}
+
+.Nav {
+  width: 100%;
+  height: 6rem;
+  background-color: #fff;
+  border-bottom: 1px #f5f6fa solid;
+}
+
+h2 {
+  font-family: var(--montseratt);
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #0290ff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2.3rem;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links a {
+  font-family: var(--montseratt);
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.nav-links li {
+  list-style: none;
+}
