@@ -4,9 +4,10 @@ that serves as a log for planned activities for users.
 
 ### Built With:
 React (SPA)
-JSX
+  JSX
 
-CSS
+  CSS
+#### project setup
 
 - Cloning
 
