@@ -1,5 +1,5 @@
-const ADD_BOOK = 'ADD_BOOK';
-const REMOVE_BOOK = 'REMOVE_BOOK';
+const ADD_BOOK = 'bookstore-app/books/ADD_BOOK';
+const REMOVE_BOOK = 'bookstore-app/books/REMOVE_BOOK';
 const initialState = [];
 const booksReducer = (state = initialState, action) => {
   switch (action.type) {
