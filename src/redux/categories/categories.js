@@ -1,4 +1,4 @@
-const CHECK_CATEGORY = 'BOOKSTORE-APP/categories/CHECK STATUS';
+const CHECK_CATEGORY = 'bookstore-app/categories/CHECK STATUS';
 const initialState = [];
 const categoriesReducer = (state = initialState, action) => {
   switch (action.type) {
