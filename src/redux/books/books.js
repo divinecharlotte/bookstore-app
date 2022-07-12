@@ -18,7 +18,7 @@ const booksReducer = (state = initialState, action) => {
   }
 };
 
-export const addAcion = (NewBook) => ({
+export const addAction = (NewBook) => ({
   type: ADD_BOOK,
   payload: NewBook,
 
