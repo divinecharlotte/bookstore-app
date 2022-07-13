@@ -1,4 +1,4 @@
-import React from 'react';
+import './index.css';
 import {
   BrowserRouter,
   Routes,
@@ -6,20 +6,17 @@ import {
 } from 'react-router-dom';
 import Nav from './components/Nav';
 import Books from './components/Books';
-import './index.css';
 import Categories from './components/Categories';
 
 function App() {
   return (
-    <div className="books-container">
-      <BrowserRouter>
-        <Nav />
-        <Routes>
-          <Route path="/" element={<Books />} />
-          <Route path="/Categories" element={<Categories />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Books />} />
+        <Route path="/categories" element={<Categories />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
