@@ -1,15 +1,16 @@
 import { React, useState } from 'react';
 import { PropTypes } from 'prop-types';
+import { v4 as uuidv4 } from 'uuid';
 
 const AddBook = ({ AddNewBook }) => {
-  const [NewBook, setNewBook] = useState({ title: '', author: '' });
+  const [NewBook, setNewBook] = useState({ title: '', author: '', category: '' });
 
   return (
     <div id="form-container">
       <h2>ADD NEW BOOK</h2>
       <form onSubmit={(e) => {
         AddNewBook(e, NewBook);
-        setNewBook({ title: '', author: '' });
+        AddNewBook(e, { ...NewBook, item_id: uuidv4() });
       }}
       >
         <input
@@ -28,6 +29,12 @@ const AddBook = ({ AddNewBook }) => {
           required
           onChange={(e) => setNewBook({ ...NewBook, author: e.target.value })}
         />
+        <select onChange={(e) => setNewBook({ ...NewBook, category: e.target.value })} required>
+          <option value="">Category</option>
+          <option value="Action">Action</option>
+          <option value="Science fiction">Science fiction</option>
+          <option value="Economy">Economy</option>
+        </select>
         <button type="submit" id="add-book">ADD BOOK</button>
       </form>
     </div>
