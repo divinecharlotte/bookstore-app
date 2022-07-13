@@ -2,9 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Book = ({
-  title, author, id, RemoveExistingBook,
+  category, title, author, id, RemoveExistingBook,
 }) => (
   <>
+    <h4>{category}</h4>
     <h3>{title}</h3>
     <h4>{author}</h4>
     <button type="button">Comment</button>
@@ -15,6 +16,7 @@ const Book = ({
 );
 
 Book.propTypes = {
+  category: PropTypes.string,
   title: PropTypes.string,
   author: PropTypes.string,
   id: PropTypes.number,
@@ -22,6 +24,7 @@ Book.propTypes = {
 };
 
 Book.defaultProps = {
+  category: '',
   title: '',
   author: '',
   id: '',

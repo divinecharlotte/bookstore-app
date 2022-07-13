@@ -1,12 +1,16 @@
-import { React } from 'react';
+import { React, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import AddBook from './AddBook';
 import Book from './Book';
-import { addAction, removeAction } from '../redux/books/books';
+import { addAction, getBooksFunc, removeAction } from '../redux/books/books';
 
 const Books = () => {
   const dispatch = useDispatch();
   const StoredBook = useSelector((state) => state.BooksReducer);
+
+  useEffect(() => {
+    dispatch(getBooksFunc());
+  }, []);
 
   const AddNewBook = (e, NewBook) => {
     e.preventDefault();
@@ -19,6 +23,7 @@ const Books = () => {
     <>
       {StoredBook.map((item) => (
         <Book
+          category={item.category}
           title={item.title}
           key={item.id}
           author={item.author}
