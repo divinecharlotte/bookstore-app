@@ -3,13 +3,18 @@
 
 ### Built With:
 CSS
+
 React
+
 Redux
+
 Axios
+
 UUID
 
 #### Live demo
 [NETLIFY](https://62d00ad9a2b9a3590bbee1d8--transcendent-hamster-3120ae.netlify.app/)
+
 [HEROKU](https://booksto-app.herokuapp.com/)
 
 #### project setup
