@@ -1,5 +1,6 @@
 import { React } from 'react';
 import { Link } from 'react-router-dom';
+import profile from '../assets/images/profile.png';
 
 const Nav = () => {
   const links = [
@@ -8,9 +9,9 @@ const Nav = () => {
   ];
 
   return (
-    <div className="Nav">
-      <ul className="nav-links">
-        <h2>Bookstore CMS</h2>
+    <nav className="navBar">
+      <h1>BookStore CMS</h1>
+      <ul>
         {links.map((link) => (
           <li key={link.id}>
             <Link to={link.path}>
@@ -21,7 +22,8 @@ const Nav = () => {
           </li>
         ))}
       </ul>
-    </div>
+      <img src={profile} alt="profile" />
+    </nav>
   );
 };
 export default Nav;
