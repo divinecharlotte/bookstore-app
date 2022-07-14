@@ -21,7 +21,7 @@ UUID
 
 - Cloning
 
-$ git clone   git@github.com:divinecharlotte/bookstore-app.git
+$ git clone git@github.com:divinecharlotte/bookstore-app.git
 
 - Installing packages
 Run the install npm script to update packages:
