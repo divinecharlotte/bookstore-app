@@ -1,12 +1,17 @@
-### To-Do App
-This project is a build of a To-Do application
-that serves as a log for planned activities for users.
+### BOOKSTORE APP
+ Bookstore is a react web app built to show collections of books, and give users access to add new books or remove existing book
 
 ### Built With:
-React (SPA)
-  JSX
+CSS
+React
+Redux
+Axios
+UUID
 
-  CSS
+#### Live demo
+[NETLIFY](https://62d00ad9a2b9a3590bbee1d8--transcendent-hamster-3120ae.netlify.app/)
+[HEROKU](https://booksto-app.herokuapp.com/)
+
 #### project setup
 
 - Cloning
