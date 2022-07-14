@@ -6,7 +6,7 @@ const AddBook = ({ AddNewBook }) => {
   const [NewBook, setNewBook] = useState({ title: '', author: '', category: '' });
 
   return (
-    <div id="form-container">
+    <div className="addbook-container">
       <h2>ADD NEW BOOK</h2>
       <form onSubmit={(e) => {
         AddNewBook(e, NewBook);
