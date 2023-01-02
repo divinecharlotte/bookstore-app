@@ -1,5 +1,6 @@
 ### BOOKSTORE APP
- Bookstore is a react web app built to show collections of books, and give users access to add new books or remove existing book
+ >Bookstore is a react web app built to show collections of books, and give users access to add new books or remove existing book
+
 ![BOOK STORE](https://user-images.githubusercontent.com/60146030/210275020-8cbe331e-86c8-42e7-b285-4e3d35be0323.PNG)
 
 ### Built With:
