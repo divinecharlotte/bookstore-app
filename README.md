@@ -13,15 +13,17 @@ Axios
 UUID
 
 #### Live demo
-[NETLIFY](https://62d00ad9a2b9a3590bbee1d8--transcendent-hamster-3120ae.netlify.app/)
+[NETLIFY Live Demo](https://62d00ad9a2b9a3590bbee1d8--transcendent-hamster-3120ae.netlify.app/)
 
-[HEROKU](https://booksto-app.herokuapp.com/)
+[HEROKU Live Demo](https://booksto-app.herokuapp.com/)
 
 #### project setup
 
 - Cloning
 
-$ git clone git@github.com:divinecharlotte/bookstore-app.git
+  ``` bash 
+  git clone https://github.com/iambenkis/bookstore-app.git
+  ```                        
 
 - Installing packages
 Run the install npm script to update packages:
@@ -41,20 +43,23 @@ Testing
 
 Run the test npm script to launch the test runner:
 
+## Authors
 
-### 👤 Author
+👤 **Divine Charlotte**
 
-linkedIn: https://www.linkedin.com/in/charlotte-divine-dusenge-31b19017a/
+- GitHub: [@Divine](https://github.com/divinecharlotte)
+- LinkedIn: [Divine Charlotte](https://www.linkedin.com/in/charlotte-divine-dusenge/)
 
-GitHub: https://github.com/divinecharlotte
+## 🤝 Contributing
 
-Show your support
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/divinecharlotte/bookstore-app/issues).
+
+## Show your support
 
 Give a ⭐️ if you like this project!
 
+## Acknowledgments
 
-### Acknowledgement:
-Big thanks to Microverse.
-
-Hat tip to W3css and every website that trained me to code.
-etc.
+-This project was inspired by [Microverse](https://www.microverse.org)
